@@ -28,7 +28,7 @@ namespace Tema2_Opacidad
         
         private void Img_MouseEnter(object sender, MouseEventArgs e)
         {
-            String foto = (sender as Image).Tag as String;
+            String foto = (sender as Image).Tag.ToString();
             
             if (foto =="img1")
                 img1.Opacity = 1;
